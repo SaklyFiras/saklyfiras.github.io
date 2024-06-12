@@ -1,0 +1,64 @@
+[
+	{
+		"title": "DentistUp",
+		"type": "Corperate",
+		"images": [
+			"/images/project1_DentistUp/image1.png",
+			"/images/project1_DentistUp/image2.png",
+			"/images/project1_DentistUp/image3.png",
+			"/images/project1_DentistUp/image4.png",
+			"/images/project1_DentistUp/image5.png",
+			"/images/project1_DentistUp/image6.png"
+		],
+		"description": "Bienvenue sur la Plateforme de Collaboration pour Dentistes ! Cette plateforme est conçue pour faciliter la collaboration entre les dentistes, leur permettant de partager des connaissances, d'échanger des idées et de travailler ensemble sur différents projets.",
+		"tools": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"React",
+			"Node.js",
+			"Express",
+			"MongoDB"
+		],
+		"duration": "2 months",
+		"link": "/portfolio/DentistUp",
+		"githubRepo": "https://github.com/SaklyFiras/PFEV2",
+		"livePreview" :"https://pfev2.onrender.com/"
+	},
+	{
+		"title": "Batiment",
+		"type": "Personnel",
+		"images": [
+			"/images/project2_Batiment/image1.png",
+			"/images/project2_Batiment/image2.png",
+			"/images/project2_Batiment/image3.png",
+			"/images/project2_Batiment/image4.png",
+			"/images/project2_Batiment/image5.png",
+			"/images/project2_Batiment/image6.png"
+		],
+		"description": "This is the description for Project 2.",
+		"tools": ["Nextjs", "TailwindCSS", "MongoDB", "Node.js", "Express" ],
+		"duration": "3 months",
+		"link": "/portfolio/Batiment",
+		"githubRepo": "https://github.com/SaklyFiras/Batimentv2",
+		"livePreview" : "https://batiment-1vlh-1scavz8ve-saklyfiras.vercel.app/"
+		
+	},
+	{
+		"title": "ShopifyDashbaord",
+		"type": "Personnel",
+		"images": [
+			"/images/project3_ShopifyDashbaord/image1.png",
+			"/images/project3_ShopifyDashbaord/image2.png",
+			"/images/project3_ShopifyDashbaord/image3.png",
+			"/images/project3_ShopifyDashbaord/image4.png",
+			"/images/project3_ShopifyDashbaord/image5.png"
+		],
+		"description": "This is the description for Project 3.",
+		"tools": ["Nextjs", "Shopify api", "TailwindCSS"],
+		"duration": "1 month",
+		"link": "/portfolio/ShopifyDashbaord",
+		"githubRepo" :"https://github.com/SaklyFiras/Dashbaord"
+		
+	}
+]
