@@ -10,11 +10,18 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 
+import { backendDevServices } from "@/data/services";
+
 function BackendDev() {
 	return (
-		<div id="BackendDev" className="flex flex-row-reverse flex-wrap justify-center w-full ">
-			
-			<div data-aos="fade-left" className=" border rounded-lg bg-gray-100 p-4 space-y-8 indent-2 flex flex-col flex-grow sm:w-2/3">
+		<div
+			id="BackendDev"
+			className="flex flex-row-reverse flex-wrap justify-center w-full "
+		>
+			<div
+				data-aos="fade-left"
+				className=" border rounded-lg bg-gray-100 p-4 space-y-8 indent-2 flex flex-col flex-grow sm:w-2/3"
+			>
 				<p className=" text-3xl font-extrabold">
 					<span className="text-blue-500">Backend</span> development
 				</p>
@@ -64,14 +71,9 @@ function BackendDev() {
 							</AccordionTrigger>
 							<AccordionContent>
 								<ul>
-									<li>React</li>
-									<li>Next.js</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>GraphQL</li>
-									<li>PostgreSQL</li>
-									<li>MySQL</li>
-									<li>MongoDB</li>
+									{backendDevServices.languages.map((language) => (
+										<li key={language}>{language}</li>
+									))}
 								</ul>
 							</AccordionContent>
 						</AccordionItem>
@@ -83,14 +85,9 @@ function BackendDev() {
 							</AccordionTrigger>
 							<AccordionContent>
 								<ul className="list-disc list-inside">
-									<li>React</li>
-									<li>Next.js</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>GraphQL</li>
-									<li>PostgreSQL</li>
-									<li>MySQL</li>
-									<li>MongoDB</li>
+									{backendDevServices.Frameworks.map((framework) => (
+										<li key={framework}>{framework}</li>
+									))}
 								</ul>
 							</AccordionContent>
 						</AccordionItem>
@@ -102,22 +99,21 @@ function BackendDev() {
 							</AccordionTrigger>
 							<AccordionContent>
 								<ul className="list-disc list-inside">
-									<li>React</li>
-									<li>Next.js</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>GraphQL</li>
-									<li>PostgreSQL</li>
-									<li>MySQL</li>
-									<li>MongoDB</li>
+									{backendDevServices.Others.map((other) => (
+										<li key={other}>{other}</li>
+									))}
 								</ul>
 							</AccordionContent>
 						</AccordionItem>
 					</Accordion>
 				</div>
 			</div>
-				<Image data-aos="fade-right" className="sm:w-1/3 max-h-64 my-auto" src={webApp} alt="Web apps" />
-			
+			<Image
+				// data-aos="fade-right"
+				className="sm:w-[45vh]  max-h-64 my-auto"
+				src={webApp}
+				alt="Web apps"
+			/>
 		</div>
 	);
 }

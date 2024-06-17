@@ -27,23 +27,21 @@ function SectionsTwo() {
 						className="  text-left space-y-4  "
 					>
 						<p className="">
-							I am highly motivated {year - 2001} full stack developer with
-							a passion for building web
+							I am highly motivated {year - 2001} developer with
+							a passion for software development.
 						</p>
 
 						<p className="">
-							I am a full stack developer with a passion for building web
-							applications.
+							I enjoy building applications and learning new technologies everyday.
 						</p>
 						<p className="">
 							{" "}
-							I have experience working with React, Next.js, Tailwind CSS, and
-							more.
+							I have more than 4 years of experience in building applications
 						</p>
 						<p className="">
 							{" "}
-							I am a full stack developer with a passion for building web
-							applications.
+							i have worked on a variety of projects,<br/> ranging from web apps to
+							desktop apps and mobile apps.
 						</p>
 					</div>
 				</div>

@@ -21,7 +21,7 @@ export default function Home() {
 				<SectionsOne />
 				<SectionsTwo />
 				<SectionsThree />
-				<SectionsFour />
+				{/* <SectionsFour /> */}
 				<SectionsFive />
 				<SectionsFiveSix />
 				<SectionsSix />

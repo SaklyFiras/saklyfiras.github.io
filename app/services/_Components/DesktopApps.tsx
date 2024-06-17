@@ -10,6 +10,8 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 
+import {desktopAppsServices} from "@/data/services";
+
 function DesktopApps() {
 	return (
 		<div  id="DesktopApps" className="flex flex-row flex-wrap justify-center w-full ">
@@ -29,14 +31,9 @@ function DesktopApps() {
 							</AccordionTrigger>
 							<AccordionContent>
 								<ul>
-									<li>React</li>
-									<li>Next.js</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>GraphQL</li>
-									<li>PostgreSQL</li>
-									<li>MySQL</li>
-									<li>MongoDB</li>
+									{desktopAppsServices.languages.map((language) => (
+										<li key={language}>{language}</li>
+									))}
 								</ul>
 							</AccordionContent>
 						</AccordionItem>
@@ -48,14 +45,9 @@ function DesktopApps() {
 							</AccordionTrigger>
 							<AccordionContent>
 								<ul className="list-disc list-inside">
-									<li>React</li>
-									<li>Next.js</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>GraphQL</li>
-									<li>PostgreSQL</li>
-									<li>MySQL</li>
-									<li>MongoDB</li>
+									{desktopAppsServices.Frameworks.map((framework) => (
+										<li key={framework}>{framework}</li>
+									))}
 								</ul>
 							</AccordionContent>
 						</AccordionItem>
@@ -67,14 +59,9 @@ function DesktopApps() {
 							</AccordionTrigger>
 							<AccordionContent>
 								<ul className="list-disc list-inside">
-									<li>React</li>
-									<li>Next.js</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>GraphQL</li>
-									<li>PostgreSQL</li>
-									<li>MySQL</li>
-									<li>MongoDB</li>
+									{desktopAppsServices.Others.map((other) => (
+										<li key={other}>{other}</li>
+									))}
 								</ul>
 							</AccordionContent>
 						</AccordionItem>

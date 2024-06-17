@@ -10,6 +10,8 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 
+import { leadYourTeamServices } from "@/data/services";
+
 function LeadYourTeam() {
 	return (
 		<div  id="LeadYourTeam" className="flex flex-row flex-wrap justify-center w-full ">
@@ -94,14 +96,9 @@ function LeadYourTeam() {
 							</AccordionTrigger>
 							<AccordionContent>
 								<ul>
-									<li>React</li>
-									<li>Next.js</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>GraphQL</li>
-									<li>PostgreSQL</li>
-									<li>MySQL</li>
-									<li>MongoDB</li>
+									{leadYourTeamServices.languages.map((language) => (
+										<li key={language}>{language}</li>
+									))}
 								</ul>
 							</AccordionContent>
 						</AccordionItem>
@@ -113,14 +110,9 @@ function LeadYourTeam() {
 							</AccordionTrigger>
 							<AccordionContent>
 								<ul className="list-disc list-inside">
-									<li>React</li>
-									<li>Next.js</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>GraphQL</li>
-									<li>PostgreSQL</li>
-									<li>MySQL</li>
-									<li>MongoDB</li>
+									{leadYourTeamServices.Frameworks.map((framework) => (
+										<li key={framework}>{framework}</li>
+									))}
 								</ul>
 							</AccordionContent>
 						</AccordionItem>
@@ -132,14 +124,9 @@ function LeadYourTeam() {
 							</AccordionTrigger>
 							<AccordionContent>
 								<ul className="list-disc list-inside">
-									<li>React</li>
-									<li>Next.js</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>GraphQL</li>
-									<li>PostgreSQL</li>
-									<li>MySQL</li>
-									<li>MongoDB</li>
+									{leadYourTeamServices.Others.map((other) => (
+										<li key={other}>{other}</li>
+									))}
 								</ul>
 							</AccordionContent>
 						</AccordionItem>

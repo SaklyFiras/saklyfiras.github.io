@@ -12,9 +12,9 @@ export default function Footer() {
 						Firas<span className="text-blue-500">.dev</span>
 					</h3>
 					<h3 className="text-2xl font-bold">Get in Touch</h3>
-					<Link href="mailto:Firas.dev@gmail.com" className="group flex w-fit items-center space-x-2 hover:cursor-pointer">
+					<Link href="mailto:firassk.dev@gmail.com" className="group flex w-fit items-center space-x-2 hover:cursor-pointer">
 						<MailOpenIcon className="w-5 h-5 text-gray-400 group-hover:stroke-slate-400 group-hover:fill-white" />
-						<span className="text-gray-400 group-hover:text-white">Firas.dev@gmail.com</span>
+						<span className="text-gray-400 group-hover:text-white">firassk.dev@gmail.com</span>
 					</Link>
 					<Link href="tel:+21658944977" className=" group flex w-fit items-center space-x-2  hover:cursor-pointer ">
 						<PhoneIcon className="w-5 h-5 text-gray-400  group-hover:stroke-slate-400 group-hover:fill-white  " />
