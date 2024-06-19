@@ -109,7 +109,7 @@ function BackendDev() {
 				</div>
 			</div>
 			<Image
-				// data-aos="fade-right"
+				data-aos="fade-right"
 				className="sm:w-[45vh]  max-h-64 my-auto"
 				src={webApp}
 				alt="Web apps"
