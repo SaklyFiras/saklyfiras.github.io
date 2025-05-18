@@ -18,7 +18,7 @@ export default function Footer() {
 					</Link>
 					<Link href="tel:+21658944977" className=" group flex w-fit items-center space-x-2  hover:cursor-pointer ">
 						<PhoneIcon className="w-5 h-5 text-gray-400  group-hover:stroke-slate-400 group-hover:fill-white  " />
-						<span className="text-gray-400 group-hover:text-white">(216) 58944977</span>
+						<span className="text-gray-400 group-hover:text-white">+48 015510416817 </span>
 					</Link>
 				</div>
 				<div className="  ">
